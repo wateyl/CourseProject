@@ -50,4 +50,5 @@ colnames(measures) <- c(columns$V2,"subject","y")
 
 tidy <- aggregate(data.matrix(measures[,1:79])~subject+y, measures,mean)
 
-write.table(tidy,file="tidy.txt")
+write.table(tidy,file="tidy.txt",row.name=FALSE)
+
