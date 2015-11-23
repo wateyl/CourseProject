@@ -1,6 +1,6 @@
 library(data.table)
 
-setwd("C:/Users/n0198933/Documents/My Information/Training/Data Science/3-Data Cleaning/Project")
+
 
 # read train and test dataset and merge them together
 train_x = fread("x_train.txt",header=F,stringsAsFactors=F,sep=" ")
